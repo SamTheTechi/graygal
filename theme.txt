@@ -1,0 +1,42 @@
+# Designed for any resolution
+
+# Global Property
+title-text: ""
+desktop-image: "background.png"
+desktop-image-scale-method: "stretch"
+desktop-color: "#FFFFFF"
+terminal-font: "SDDystopianDemo Regular 17"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Show the boot menu
++ boot_menu {
+  left = 25%-235
+  top = 35%
+  width = 470
+  height = 35%
+  item_font = "SDDystopianDemo Regular 17"
+  item_color = "#FFFFFF"
+  selected_item_color = "#FFFFFF"
+  icon_width = 36
+  icon_height = 36
+  item_icon_space = 20
+  item_height = 42
+  item_padding = 9
+  item_spacing = 10
+  selected_item_pixmap_style = "select_*.png"
+}
+
+# Show a countdown message using the label component
++ label {
+  top = 62%
+  left = 30%-200
+  width = 20%
+  align = "center"
+  id = "__timeout__"
+  text = "Booting OS in %d seconds"
+  color = "#FFFFFF"
+}
