@@ -19,4 +19,4 @@ $ ./install.sh
 ```
 
 ## Screenshot
-![](https://github.com/SamTheTechi/graygal/blob/main/screenshot.png?raw=true)
+![](https://github.com/SamTheTechi/graygal/blob/master/screenshot.jpg?raw=true)
