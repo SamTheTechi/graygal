@@ -2,38 +2,43 @@
 
 # Global Property
 title-text: ""
-desktop-image: "background.png"
+desktop-image: "background2.png"
 desktop-image-scale-method: "stretch"
 desktop-color: "#FFFFFF"
-terminal-font: "SDDystopianDemo Regular 17"
+terminal-box: "terminal_box_*.png"
+terminal-font: "SDDystopianDemo Regular 18"
 terminal-left: "0"
 terminal-top: "0"
 terminal-width: "100%"
 terminal-height: "100%"
 terminal-border: "0"
 
+
 # Show the boot menu
 + boot_menu {
-  left = 25%-235
-  top = 35%
-  width = 470
-  height = 35%
-  item_font = "SDDystopianDemo Regular 17"
+  left = 25%-240
+  top = 32%
+  width = 480
+  height = 40%
+  item_font = "SDDystopianDemo Regular 16"
   item_color = "#FFFFFF"
   selected_item_color = "#FFFFFF"
-  icon_width = 36
-  icon_height = 36
-  item_icon_space = 20
-  item_height = 42
-  item_padding = 9
-  item_spacing = 10
   selected_item_pixmap_style = "select_*.png"
+  icon_height = 42
+  icon_width = 42
+  item_icon_space = 12
+  item_height = 42
+  item_padding = 19
+  item_spacing = 26
+  menu_pixmap_style = "boot_menu_*.png"
+  scrollbar = false
 }
 
 # Show a countdown message using the label component
 + label {
-  top = 62%
+  top = 66%
   left = 30%-200
+  font = "SDDystopianDemo Regular 16"
   width = 20%
   align = "center"
   id = "__timeout__"
